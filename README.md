@@ -79,17 +79,7 @@ Artist → Album → Track → InvoiceLine → Invoice → Customer
 - Top-performing genres  
 
 ---
-
-## 📐 DAX Measures
-```DAX
-Total Revenue = SUM(Invoice[Total])
-Tracks Sold = SUM(InvoiceLine[Quantity])
-Avg Unit Price = AVERAGE(InvoiceLine[UnitPrice])
-Total Customers = DISTINCTCOUNT(Customer[CustomerId])
-
-##
---- 
- ## 🔍 Key Insights
+## 🔍 Key Insights
 - 💰 Total revenue reached **$2.33K**, showing overall business performance  
 - 📈 Revenue grew by **13.5%**, indicating positive sales trends  
 - 🌍 **USA** generated the highest revenue, making it the top market  
@@ -97,7 +87,12 @@ Total Customers = DISTINCTCOUNT(Customer[CustomerId])
 - 👤 **Helena Holý** was the highest-spending customer  
 
 ---
+## 📐 DAX Measures
+```DAX
+Total Revenue = SUM(Invoice[Total])
+Tracks Sold = SUM(InvoiceLine[Quantity])
+Avg Unit Price = AVERAGE(InvoiceLine[UnitPrice])
+Total Customers = DISTINCTCOUNT(Customer[CustomerId])
 
-## 🔗 Connect With Me
-- LinkedIn: https://www.linkedin.com/in/keren-oyem  
-- GitHub: https://github.com/kerenoyem-hash
+ 
+ 
