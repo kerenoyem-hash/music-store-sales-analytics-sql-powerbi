@@ -86,7 +86,9 @@ Total Revenue = SUM(Invoice[Total])
 Tracks Sold = SUM(InvoiceLine[Quantity])
 Avg Unit Price = AVERAGE(InvoiceLine[UnitPrice])
 Total Customers = DISTINCTCOUNT(Customer[CustomerId])
- 
+
+##
+--- 
  ## 🔍 Key Insights
 - 💰 Total revenue reached **$2.33K**, showing overall business performance  
 - 📈 Revenue grew by **13.5%**, indicating positive sales trends  
